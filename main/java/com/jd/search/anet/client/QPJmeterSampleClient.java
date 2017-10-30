@@ -21,8 +21,8 @@ public class QPJmeterSampleClient extends AbstractJavaSamplerClient {
 	public Arguments getDefaultParameters()
     {
         Arguments params=new Arguments();
-        params.addArgument("serverIp","172.16.152.27");
-        params.addArgument("serverPort","9797");
+        params.addArgument("serverIp","10.184.109.80");
+        params.addArgument("serverPort","4487");
         params.addArgument("query", "nokia");
         params.addArgument("flag", "47");
         params.addArgument("query_enc", "1");
